@@ -1,0 +1,13 @@
+{
+    "name": "sandeep/libraries",
+    "description": "ota libraries",
+    "require": {
+        "curl/curl": "^1.3"
+    },
+    "authors": [
+        {
+            "name": "sandeep",
+            "email": "goel.sandy86@gmail.com"
+        }
+    ]
+}
