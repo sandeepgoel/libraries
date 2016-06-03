@@ -3,6 +3,7 @@
     "description": "library for ota",
     "type": "library",
     "require": {
+		"php": ">=5.4.0",
         "curl/curl": "^1.3"
     },
     "license": "MIT",
@@ -12,5 +13,11 @@
             "email": "goel.sandy86@gmail.com"
         }
     ],
+	"autoload": {
+        "psr-4": {
+            "Sandeep\\Libraries\\": "/"
+        }
+    },
+	
     "minimum-stability": "dev"
 }
